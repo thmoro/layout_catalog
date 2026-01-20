@@ -91,6 +91,8 @@
     text-decoration: none;
     box-sizing: border-box;
 
+    transition: all 0.3s ease;
+
     &:hover {
       background-color: $light-color;
       color: $button-color;
@@ -100,7 +102,7 @@
   &:hover {
     transform: scale(1.2);
 
-    .card__description {
+    .card__title {
       color: $color-text-hover-card;
     }
   }
